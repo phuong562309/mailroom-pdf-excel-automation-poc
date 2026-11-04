@@ -1,0 +1,27 @@
+{
+  "maker_status": "complete_unverified",
+  "documents": 15,
+  "pages": 24,
+  "source_sha256": "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6",
+  "workbook_sha256": "ad116ba4b7b0501fc0448d6042f9b7c6b44455fc54dbd9eb4e48a0ec4a93a564",
+  "manifest_sha256": "25799540f5a1440f1fe909630b552323fac152dff4e25d4ebb8d1d47ec0a10ed",
+  "independent_audit_required": true,
+  "guard_backend": "standalone",
+  "workbook_export": {
+    "formula_caches": 84,
+    "formula_cache_policy": "full-record rebuild",
+    "formula_evaluator_used": false,
+    "native_spreadsheet_application_tested": false
+  },
+  "page_write_guard": {
+    "status": "accepted",
+    "total_source_records_before": 24,
+    "total_source_records_after": 24
+  },
+  "record_write_guard": {
+    "status": "accepted",
+    "total_source_records_before": 15,
+    "total_source_records_after": 15
+  },
+  "max_output_path_utf16_units": 173
+}

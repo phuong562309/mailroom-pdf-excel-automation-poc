@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "documents": 15,
+  "pages": 24,
+  "configured_types": 11,
+  "observed_types": 11,
+  "checked": 78,
+  "unchecked": 0,
+  "failures": 0,
+  "oracle_access": false,
+  "original_directory_run": "PASS",
+  "relocated_directory_run": "PASS",
+  "relocation_path_classes": [
+    "fresh temporary directory",
+    "spaces",
+    "Unicode"
+  ],
+  "sanitized_environment": {
+    "path_empty": true,
+    "pythonpath_removed": true,
+    "pythonhome_removed": true,
+    "user_site_disabled": true
+  },
+  "standalone_guard": {
+    "standalone_selected": true,
+    "external_guard_absent": true,
+    "negative_cases": 6,
+    "valid_growth": true
+  },
+  "adverse_controls": {
+    "checks": [
+      "no silent overwrite",
+      "image-only rejected without publication",
+      "literal wildcard statuses and subset N/M formulas/caches",
+      "case-variant status categories rejected"
+    ],
+    "literal_documents": 4,
+    "literal_formula_cells": 72,
+    "literal_dependency_probes": 4
+  },
+  "initial_scan": {
+    "files": 16,
+    "xlsx_xml_parts": 0,
+    "requirements": [
+      "openpyxl",
+      "pdfplumber",
+      "pillow",
+      "pypdf",
+      "reportlab"
+    ],
+    "import_roots": [
+      "argparse",
+      "ast",
+      "collections",
+      "datetime",
+      "guardrail_checks",
+      "hashlib",
+      "importlib",
+      "io",
+      "json",
+      "openpyxl",
+      "os",
+      "pathlib",
+      "pdfplumber",
+      "pypdf",
+      "re",
+      "reportlab",
+      "shutil",
+      "standalone_guard",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "unicodedata",
+      "urllib",
+      "workbook_writer",
+      "xml",
+      "zipfile"
+    ],
+    "host_paths": 0,
+    "private_dependencies": 0,
+    "symlinks": 0
+  },
+  "relocated_scan": {
+    "files": 66,
+    "xlsx_xml_parts": 42,
+    "requirements": [
+      "openpyxl",
+      "pdfplumber",
+      "pillow",
+      "pypdf",
+      "reportlab"
+    ],
+    "import_roots": [
+      "argparse",
+      "ast",
+      "collections",
+      "datetime",
+      "guardrail_checks",
+      "hashlib",
+      "importlib",
+      "io",
+      "json",
+      "openpyxl",
+      "os",
+      "pathlib",
+      "pdfplumber",
+      "pypdf",
+      "re",
+      "reportlab",
+      "shutil",
+      "standalone_guard",
+      "subprocess",
+      "sys",
+      "tempfile",
+      "unicodedata",
+      "urllib",
+      "workbook_writer",
+      "xml",
+      "zipfile"
+    ],
+    "host_paths": 0,
+    "private_dependencies": 0,
+    "symlinks": 0
+  },
+  "formula_cache_cells_per_main_batch": 84,
+  "formula_dependency_probes_per_main_batch": 15,
+  "renderer": "PDFium through public pdfplumber; no external executables",
+  "versions": {
+    "openpyxl": "3.1.5",
+    "pdfplumber": "0.11.9",
+    "pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "reportlab": "4.4.9"
+  },
+  "artifacts": [
+    {
+      "path": "AUDIT.json",
+      "sha256": "5a07d4c455da9ad4b054b7c9d401c33bb491d545eae7e548f525372d1af4d308"
+    },
+    {
+      "path": "sample-output/11_Types_Summary_Breakdown.xlsx",
+      "sha256": "ad116ba4b7b0501fc0448d6042f9b7c6b44455fc54dbd9eb4e48a0ec4a93a564"
+    }
+  ],
+  "limitations": [
+    "Labeled text-layer input; no OCR or real client-scan accuracy claim.",
+    "Local outbox; no remote SharePoint transfer.",
+    "Independent PDFium raster comparison at 40 dpi verifies page preservation; it is not a high-resolution typography review.",
+    "Supported formulas/caches checked independently; no native spreadsheet-application execution."
+  ]
+}

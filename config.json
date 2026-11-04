@@ -1,0 +1,6 @@
+{
+  "schema_version": "mailroom-text-v1",
+  "document_types": ["Type_01", "Type_02", "Type_03", "Type_04", "Type_05", "Type_06", "Type_07", "Type_08", "Type_09", "Type_10", "Type_11"],
+  "filename_policy": "nfc-utf8-percent-v1",
+  "max_filename_utf16_units": 255
+}

@@ -1,0 +1,51 @@
+{
+  "task": "NV15_M2",
+  "status": "completed",
+  "scope": "squad_project",
+  "execution_mode": "FAST_TRACK",
+  "documents": 15,
+  "pages": 24,
+  "document_types": 11,
+  "unchecked": 0,
+  "mismatched": 0,
+  "audit_status": "PASS",
+  "new_delta_suites": 1,
+  "suite_attempts": 2,
+  "retained_failed_attempts": 1,
+  "historical_benchmarks_run": 0,
+  "worker_runtimes": 2,
+  "original_and_relocated_runs": "PASS",
+  "python_version": "3.12.14",
+  "tested_os": "Windows",
+  "fresh_dependency_install_tested": false,
+  "native_excel_recalculation_tested": false,
+  "dependencies": "requirements.txt",
+  "workbook": {
+    "path": "sample-output/11_Types_Summary_Breakdown.xlsx",
+    "sha256": "ad116ba4b7b0501fc0448d6042f9b7c6b44455fc54dbd9eb4e48a0ec4a93a564"
+  },
+  "audit": {
+    "path": "AUDIT.json",
+    "sha256": "5a07d4c455da9ad4b054b7c9d401c33bb491d545eae7e548f525372d1af4d308"
+  },
+  "portability_report": {
+    "path": "PORTABILITY_REPORT.json",
+    "sha256": "12799da7977e6bdd7fb9d021d37c53c5fc79130dda13e03b4e23f997f4830271"
+  },
+  "proposal": {
+    "path": "CLIENT_PROPOSAL_AND_POC_PACK.md",
+    "sha256": "36dc27af6163134cab331f6a68d3b5f5ed55ee7d0074c5d0ec82ed5e09b76ca8"
+  },
+  "source": {
+    "path": "examples/Combined_Mailroom_Scan_Sample.pdf",
+    "sha256": "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6"
+  },
+  "zero_new_external_spend": true,
+  "published_or_sent": false,
+  "limitations": [
+    "Labeled text-layer input; no OCR or real client-scan accuracy claim.",
+    "Local outbox; no remote SharePoint transfer.",
+    "Independent PDFium raster comparison at 40 dpi verifies page preservation; it is not a high-resolution typography review.",
+    "Supported formulas/caches checked independently; no native spreadsheet-application execution."
+  ]
+}

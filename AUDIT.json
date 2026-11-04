@@ -1,0 +1,898 @@
+{
+  "status": "PASS",
+  "source_kind": "labeled text-layer PDF; provenance supplied by caller",
+  "source": {
+    "path": "../examples/Combined_Mailroom_Scan_Sample.pdf",
+    "sha256": "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6"
+  },
+  "documents": 15,
+  "source_pages": 24,
+  "child_pages": 24,
+  "types": 11,
+  "configured_types": 11,
+  "observed_types": 11,
+  "checked": 39,
+  "unchecked": 0,
+  "mismatched": 0,
+  "failures": 0,
+  "oracle_access": false,
+  "guard_backend": "standalone",
+  "reference_base": "--output directory",
+  "strategy": "pdfplumber/pdfminer direct-source metadata+sequence; PDFium all-page RGB raster identity; openpyxl read-only formula+cache reconciliation",
+  "source_page_ids": [
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:1:17bf550b5e4da1c23d311975be2fcf952d989c9bd311687f5d14a738cafff967",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:2:ece85ecf214482671f796853b87b727bed3465f4a5adaab4a90d9996ee3f946e",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:3:67e2f4f1c08cb589b2b9352f31e61b18ab6ea63b90f6851fb5f9c2f3d30b00d5",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:4:6e1bedac8c681bb3922baa84365ccb2fd06ea7e3d2d8d88d995e617b2ec619e1",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:5:d06bc031fc4273231b177e135f77386c52f9b1afc3b7a78d860874bd019145ec",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:6:43ce0acf3ac45c829637eb5635cb44add339030a76834411c7d21933cd864600",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:7:09988310a5c55e431bcc291458876a550149714da8e005b25940ac77d23cd49c",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:8:89249b108fa4d1fae467b1f432969f66837a0b355bb1d6e2b9700b82bb6eeac7",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:9:9bcf7aa7887e3111e3888354d846dbb5b719aa20d0258e9948d8ea01d4196b0c",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:10:97c52fcf41ed59304e63a15549065763c3f130827f2f1149319986b7e9076a96",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:11:973b96010340d1965770e7f2e1d63ee2438501012e61737f13d32eba8768db60",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:12:776e4fed6a16982b82ec0a0c1add9f0ef8ce9664d342eeda862b1fd4f39025c1",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:13:87a5e69fc79ef95577c6cc8661784f4c4ca6d953ca8412389c5d1938b6c3fce6",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:14:86b1632ea1464d8402e152e667d13009d9a4675b85bdf233a5efc989b12aa4f8",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:15:895e5ddbabde74ab45009d8666b45fb237d10dc7a39a8ab88b0c374d89df286c",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:16:46ec54ab03db41a51f0bddde8fd1a5273eab74f7516ae587387ab2f1ffaea90e",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:17:a5d25b83bb5bad8d1e1613419b92a9089d88b816160513ebe7690ebc70e2b3f8",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:18:78d3620ed191aef453f6e5fcc0809959bf16063584f822e107701c9016176531",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:19:b930442b18cc2c0296affa64c8dbfec5267d3d7439b844f1ce1af71c77f4147e",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:20:1d77c1d17ee46bab3958011d5af82c7ee749154e946b1b6b08cdf144f910d219",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:21:0745289d5e1704c23fd9b26d185f31da1b03501306333b01cbf6743f125e0066",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:22:160b6812bd86ea7e7dac459274b4297196f143c099cfa0046172d6b45c64e21f",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:23:f9a17b43575c2825088f3ca17420f608c08a3605bf6ce540a16a8c8024f402b1",
+    "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:24:7f938baf5f7afdbad4b0a23d063bc60b74385834d35e7ccae964e54d20027520"
+  ],
+  "coverage_guard": {
+    "status": "accepted",
+    "total_source_records_before": 24,
+    "total_source_records_after": 24
+  },
+  "units": [
+    {
+      "document_id": "MR-2026-0001",
+      "source_pages": [
+        1
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:1:17bf550b5e4da1c23d311975be2fcf952d989c9bd311687f5d14a738cafff967"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Received_MR-2026-0001.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0002",
+      "source_pages": [
+        2,
+        3
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:2:ece85ecf214482671f796853b87b727bed3465f4a5adaab4a90d9996ee3f946e",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:3:67e2f4f1c08cb589b2b9352f31e61b18ab6ea63b90f6851fb5f9c2f3d30b00d5"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_02/José García_Pending Review_MR-2026-0002.pdf",
+      "page_count": 2,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0003",
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:4:6e1bedac8c681bb3922baa84365ccb2fd06ea7e3d2d8d88d995e617b2ec619e1",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:5:d06bc031fc4273231b177e135f77386c52f9b1afc3b7a78d860874bd019145ec",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:6:43ce0acf3ac45c829637eb5635cb44add339030a76834411c7d21933cd864600"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_03/Zoë O’Connor_Approved_MR-2026-0003.pdf",
+      "page_count": 3,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0004",
+      "source_pages": [
+        7
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:7:09988310a5c55e431bcc291458876a550149714da8e005b25940ac77d23cd49c"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_04/François Noël_On Hold_MR-2026-0004.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0005",
+      "source_pages": [
+        8,
+        9
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:8:89249b108fa4d1fae467b1f432969f66837a0b355bb1d6e2b9700b82bb6eeac7",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:9:9bcf7aa7887e3111e3888354d846dbb5b719aa20d0258e9948d8ea01d4196b0c"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_05/Chloé Martin_Closed_MR-2026-0005.pdf",
+      "page_count": 2,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0006",
+      "source_pages": [
+        10
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:10:97c52fcf41ed59304e63a15549065763c3f130827f2f1149319986b7e9076a96"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_06/Müller & Söhne_Received_MR-2026-0006.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0007",
+      "source_pages": [
+        11
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:11:973b96010340d1965770e7f2e1d63ee2438501012e61737f13d32eba8768db60"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_07/André Silva_Pending Review_MR-2026-0007.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0008",
+      "source_pages": [
+        12,
+        13
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:12:776e4fed6a16982b82ec0a0c1add9f0ef8ce9664d342eeda862b1fd4f39025c1",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:13:87a5e69fc79ef95577c6cc8661784f4c4ca6d953ca8412389c5d1938b6c3fce6"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_08/Renée Laurent_Approved_MR-2026-0008.pdf",
+      "page_count": 2,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0009",
+      "source_pages": [
+        14
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:14:86b1632ea1464d8402e152e667d13009d9a4675b85bdf233a5efc989b12aa4f8"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_09/Søren Jensen_On Hold_MR-2026-0009.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0010",
+      "source_pages": [
+        15,
+        16
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:15:895e5ddbabde74ab45009d8666b45fb237d10dc7a39a8ab88b0c374d89df286c",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:16:46ec54ab03db41a51f0bddde8fd1a5273eab74f7516ae587387ab2f1ffaea90e"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_10/Ana María Díaz_Closed_MR-2026-0010.pdf",
+      "page_count": 2,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0011",
+      "source_pages": [
+        17
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:17:a5d25b83bb5bad8d1e1613419b92a9089d88b816160513ebe7690ebc70e2b3f8"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_11/Bùi Minh Đức_Received_MR-2026-0011.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0012",
+      "source_pages": [
+        18,
+        19,
+        20
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:18:78d3620ed191aef453f6e5fcc0809959bf16063584f822e107701c9016176531",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:19:b930442b18cc2c0296affa64c8dbfec5267d3d7439b844f1ce1af71c77f4147e",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:20:1d77c1d17ee46bab3958011d5af82c7ee749154e946b1b6b08cdf144f910d219"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Pending Review_MR-2026-0012.pdf",
+      "page_count": 3,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0013",
+      "source_pages": [
+        21
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:21:0745289d5e1704c23fd9b26d185f31da1b03501306333b01cbf6743f125e0066"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_02/Alice %2F Bob_Approved_MR-2026-0013.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0014",
+      "source_pages": [
+        22
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:22:160b6812bd86ea7e7dac459274b4297196f143c099cfa0046172d6b45c64e21f"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_03/A%5FB %25 Partner_On Hold_MR-2026-0014.pdf",
+      "page_count": 1,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    },
+    {
+      "document_id": "MR-2026-0015",
+      "source_pages": [
+        23,
+        24
+      ],
+      "source_page_ids": [
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:23:f9a17b43575c2825088f3ca17420f608c08a3605bf6ce540a16a8c8024f402b1",
+        "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6:page:24:7f938baf5f7afdbad4b0a23d063bc60b74385834d35e7ccae964e54d20027520"
+      ],
+      "child": "SharePoint_Synced_Outbox/Type_04/Taylor Lee_Closed_MR-2026-0015.pdf",
+      "page_count": 2,
+      "metadata_checked": true,
+      "text_checked": true,
+      "raster_checked": true,
+      "filename_checked": true
+    }
+  ],
+  "excel": {
+    "statuses": [
+      "Approved",
+      "Closed",
+      "On Hold",
+      "Pending Review",
+      "Received"
+    ],
+    "formula_checks": [
+      {
+        "cell": "B6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "C6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "G6",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A6,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "H6",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A6)",
+        "computed": 4,
+        "cached": 4
+      },
+      {
+        "cell": "B7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "C7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "D7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "G7",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A7,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H7",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A7)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "B8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "C8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "D8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "F8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G8",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A8,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H8",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A8)",
+        "computed": 4,
+        "cached": 4
+      },
+      {
+        "cell": "B9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "C9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "E9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "F9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G9",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A9,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H9",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A9)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "B10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "E10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G10",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A10,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H10",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A10)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "B11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G11",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A11,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "H11",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A11)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "B12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "G12",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A12,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H12",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A12)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "B13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "D13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G13",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A13,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H13",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A13)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "B14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "F14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G14",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A14,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H14",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A14)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "B15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "E15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G15",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A15,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "H15",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A15)",
+        "computed": 2,
+        "cached": 2
+      },
+      {
+        "cell": "B16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "C16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(C$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "D16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(D$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "E16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(E$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "F16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(F$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 0,
+        "cached": 0
+      },
+      {
+        "cell": "G16",
+        "formula": "=COUNTIFS('Extracted_Records'!$B$6:$B$20,$A16,'Extracted_Records'!$D$6:$D$20,SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(G$5,\"~\",\"~~\"),\"*\",\"~*\"),\"?\",\"~?\"))",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "H16",
+        "formula": "=SUMIFS('Extracted_Records'!$H$6:$H$20,'Extracted_Records'!$B$6:$B$20,$A16)",
+        "computed": 1,
+        "cached": 1
+      },
+      {
+        "cell": "B17",
+        "formula": "=SUM(B6:B16)",
+        "computed": 15,
+        "cached": 15
+      },
+      {
+        "cell": "C17",
+        "formula": "=SUM(C6:C16)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "D17",
+        "formula": "=SUM(D6:D16)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "E17",
+        "formula": "=SUM(E6:E16)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "F17",
+        "formula": "=SUM(F6:F16)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "G17",
+        "formula": "=SUM(G6:G16)",
+        "computed": 3,
+        "cached": 3
+      },
+      {
+        "cell": "H17",
+        "formula": "=SUM(H6:H16)",
+        "computed": 24,
+        "cached": 24
+      }
+    ],
+    "record_rows": 15,
+    "summary_type_rows": 11,
+    "readonly_formula_dependency_probes": 15
+  },
+  "source_features": {
+    "document_page_counts": {
+      "1": 8,
+      "2": 5,
+      "3": 2
+    },
+    "table_pages": 24,
+    "unicode_names": 12,
+    "repeat_people_different_status": true
+  },
+  "output_artifacts": [
+    {
+      "path": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Received_MR-2026-0001.pdf",
+      "sha256": "ad1abef000469f20e8049b7136ed4dda0eeb9af19b67247d2a9c7f2b232e9583"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_02/José García_Pending Review_MR-2026-0002.pdf",
+      "sha256": "ef9d70f3addcbbccbdc1e2304573e11c38aeb8aebcf73f9a6046964719c3a4ad"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_03/Zoë O’Connor_Approved_MR-2026-0003.pdf",
+      "sha256": "80484fdc2952bdd3ee46147256de09872b0a3ce15f7692f7675757bca4a4db54"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_04/François Noël_On Hold_MR-2026-0004.pdf",
+      "sha256": "d8c630ac64868e56567a12c1f59051ccd743b4b99b8e75c5814501f839c7f0fe"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_05/Chloé Martin_Closed_MR-2026-0005.pdf",
+      "sha256": "15817228a0e1234bd2acda7d2446b6ffdd78b8768ed01f6397d30558b1e2225d"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_06/Müller & Söhne_Received_MR-2026-0006.pdf",
+      "sha256": "0cca7f640fd33555e1e03e14099029e23fe375229766dd23b054ac0e78da795e"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_07/André Silva_Pending Review_MR-2026-0007.pdf",
+      "sha256": "f83069a573ce0912242840c0bedab69c94eb745aa2440c56700f367b3a6e8c75"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_08/Renée Laurent_Approved_MR-2026-0008.pdf",
+      "sha256": "914efdc409124b4c8082130b847a1df57ac1654173b2d8b6a178d9b3d980b70f"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_09/Søren Jensen_On Hold_MR-2026-0009.pdf",
+      "sha256": "b194f4dfb06098a2128c7accab14562f769a6c8f4cd1b057b318a843c4fded3c"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_10/Ana María Díaz_Closed_MR-2026-0010.pdf",
+      "sha256": "ecb9e671c0f9004e4ce4b7940d41daad0d2f3f8fe3325d175afb99bf60dfda51"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_11/Bùi Minh Đức_Received_MR-2026-0011.pdf",
+      "sha256": "dab3343087bdb003ba74e98b8f450058134867ac0776db7bc558f4ecf1852d9a"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Pending Review_MR-2026-0012.pdf",
+      "sha256": "ea54d5a7eee6bcf18e97449fc7d167386f733e8d2e42f52e990b01942739b8e9"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_02/Alice %2F Bob_Approved_MR-2026-0013.pdf",
+      "sha256": "61467eda1c480450cc178e07166356654911d894ff1a3b4e861cdac8a3cedefa"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_03/A%5FB %25 Partner_On Hold_MR-2026-0014.pdf",
+      "sha256": "aefe21a5f34ea0446f75984845190fc2a6b9d6109922af80133661c2e2627582"
+    },
+    {
+      "path": "SharePoint_Synced_Outbox/Type_04/Taylor Lee_Closed_MR-2026-0015.pdf",
+      "sha256": "a177bd518355e85bebc669e54280fbcccfcf5d39d34b110e2996fb4c28021e68"
+    },
+    {
+      "path": "11_Types_Summary_Breakdown.xlsx",
+      "sha256": "ad116ba4b7b0501fc0448d6042f9b7c6b44455fc54dbd9eb4e48a0ec4a93a564"
+    }
+  ],
+  "limitations": [
+    "Labeled text-layer input; no OCR or real client-scan accuracy claim.",
+    "Local outbox; no remote SharePoint transfer.",
+    "Independent PDFium raster comparison at 40 dpi verifies page preservation; it is not a high-resolution typography review.",
+    "Supported formulas/caches checked independently; no native spreadsheet-application execution."
+  ]
+}

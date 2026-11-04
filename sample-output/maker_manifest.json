@@ -1,0 +1,296 @@
+{
+  "schema_version": "mailroom-text-v1",
+  "source": "examples/Combined_Mailroom_Scan_Sample.pdf",
+  "source_sha256": "b20ceb8bc1153141727b9a5902abf7c81b059a00acbe5d1407c0d377dd282be6",
+  "document_types": [
+    "Type_01",
+    "Type_02",
+    "Type_03",
+    "Type_04",
+    "Type_05",
+    "Type_06",
+    "Type_07",
+    "Type_08",
+    "Type_09",
+    "Type_10",
+    "Type_11"
+  ],
+  "statuses": [
+    "Approved",
+    "Closed",
+    "On Hold",
+    "Pending Review",
+    "Received"
+  ],
+  "document_count": 15,
+  "source_page_count": 24,
+  "records": [
+    {
+      "Document_Type": "Type_01",
+      "Document_ID": "MR-2026-0001",
+      "Person_Name": "Nguyễn Thị Hà",
+      "Status": "Received",
+      "Date": "2026-11-01",
+      "Doc_Index": 1,
+      "start_page": 1,
+      "Page_Count": 1,
+      "source_pages": [
+        1
+      ],
+      "Page_Range": "1",
+      "Output_Filename": "Nguyễn Thị Hà_Received_MR-2026-0001.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Received_MR-2026-0001.pdf",
+      "pdf_sha256": "ad1abef000469f20e8049b7136ed4dda0eeb9af19b67247d2a9c7f2b232e9583"
+    },
+    {
+      "Document_Type": "Type_02",
+      "Document_ID": "MR-2026-0002",
+      "Person_Name": "José García",
+      "Status": "Pending Review",
+      "Date": "2026-11-02",
+      "Doc_Index": 2,
+      "start_page": 2,
+      "Page_Count": 2,
+      "source_pages": [
+        2,
+        3
+      ],
+      "Page_Range": "2-3",
+      "Output_Filename": "José García_Pending Review_MR-2026-0002.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_02/José García_Pending Review_MR-2026-0002.pdf",
+      "pdf_sha256": "ef9d70f3addcbbccbdc1e2304573e11c38aeb8aebcf73f9a6046964719c3a4ad"
+    },
+    {
+      "Document_Type": "Type_03",
+      "Document_ID": "MR-2026-0003",
+      "Person_Name": "Zoë O’Connor",
+      "Status": "Approved",
+      "Date": "2026-11-03",
+      "Doc_Index": 3,
+      "start_page": 4,
+      "Page_Count": 3,
+      "source_pages": [
+        4,
+        5,
+        6
+      ],
+      "Page_Range": "4-6",
+      "Output_Filename": "Zoë O’Connor_Approved_MR-2026-0003.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_03/Zoë O’Connor_Approved_MR-2026-0003.pdf",
+      "pdf_sha256": "80484fdc2952bdd3ee46147256de09872b0a3ce15f7692f7675757bca4a4db54"
+    },
+    {
+      "Document_Type": "Type_04",
+      "Document_ID": "MR-2026-0004",
+      "Person_Name": "François Noël",
+      "Status": "On Hold",
+      "Date": "2026-11-04",
+      "Doc_Index": 4,
+      "start_page": 7,
+      "Page_Count": 1,
+      "source_pages": [
+        7
+      ],
+      "Page_Range": "7",
+      "Output_Filename": "François Noël_On Hold_MR-2026-0004.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_04/François Noël_On Hold_MR-2026-0004.pdf",
+      "pdf_sha256": "d8c630ac64868e56567a12c1f59051ccd743b4b99b8e75c5814501f839c7f0fe"
+    },
+    {
+      "Document_Type": "Type_05",
+      "Document_ID": "MR-2026-0005",
+      "Person_Name": "Chloé Martin",
+      "Status": "Closed",
+      "Date": "2026-11-05",
+      "Doc_Index": 5,
+      "start_page": 8,
+      "Page_Count": 2,
+      "source_pages": [
+        8,
+        9
+      ],
+      "Page_Range": "8-9",
+      "Output_Filename": "Chloé Martin_Closed_MR-2026-0005.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_05/Chloé Martin_Closed_MR-2026-0005.pdf",
+      "pdf_sha256": "15817228a0e1234bd2acda7d2446b6ffdd78b8768ed01f6397d30558b1e2225d"
+    },
+    {
+      "Document_Type": "Type_06",
+      "Document_ID": "MR-2026-0006",
+      "Person_Name": "Müller & Söhne",
+      "Status": "Received",
+      "Date": "2026-11-06",
+      "Doc_Index": 6,
+      "start_page": 10,
+      "Page_Count": 1,
+      "source_pages": [
+        10
+      ],
+      "Page_Range": "10",
+      "Output_Filename": "Müller & Söhne_Received_MR-2026-0006.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_06/Müller & Söhne_Received_MR-2026-0006.pdf",
+      "pdf_sha256": "0cca7f640fd33555e1e03e14099029e23fe375229766dd23b054ac0e78da795e"
+    },
+    {
+      "Document_Type": "Type_07",
+      "Document_ID": "MR-2026-0007",
+      "Person_Name": "André Silva",
+      "Status": "Pending Review",
+      "Date": "2026-11-07",
+      "Doc_Index": 7,
+      "start_page": 11,
+      "Page_Count": 1,
+      "source_pages": [
+        11
+      ],
+      "Page_Range": "11",
+      "Output_Filename": "André Silva_Pending Review_MR-2026-0007.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_07/André Silva_Pending Review_MR-2026-0007.pdf",
+      "pdf_sha256": "f83069a573ce0912242840c0bedab69c94eb745aa2440c56700f367b3a6e8c75"
+    },
+    {
+      "Document_Type": "Type_08",
+      "Document_ID": "MR-2026-0008",
+      "Person_Name": "Renée Laurent",
+      "Status": "Approved",
+      "Date": "2026-11-08",
+      "Doc_Index": 8,
+      "start_page": 12,
+      "Page_Count": 2,
+      "source_pages": [
+        12,
+        13
+      ],
+      "Page_Range": "12-13",
+      "Output_Filename": "Renée Laurent_Approved_MR-2026-0008.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_08/Renée Laurent_Approved_MR-2026-0008.pdf",
+      "pdf_sha256": "914efdc409124b4c8082130b847a1df57ac1654173b2d8b6a178d9b3d980b70f"
+    },
+    {
+      "Document_Type": "Type_09",
+      "Document_ID": "MR-2026-0009",
+      "Person_Name": "Søren Jensen",
+      "Status": "On Hold",
+      "Date": "2026-11-09",
+      "Doc_Index": 9,
+      "start_page": 14,
+      "Page_Count": 1,
+      "source_pages": [
+        14
+      ],
+      "Page_Range": "14",
+      "Output_Filename": "Søren Jensen_On Hold_MR-2026-0009.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_09/Søren Jensen_On Hold_MR-2026-0009.pdf",
+      "pdf_sha256": "b194f4dfb06098a2128c7accab14562f769a6c8f4cd1b057b318a843c4fded3c"
+    },
+    {
+      "Document_Type": "Type_10",
+      "Document_ID": "MR-2026-0010",
+      "Person_Name": "Ana María Díaz",
+      "Status": "Closed",
+      "Date": "2026-11-10",
+      "Doc_Index": 10,
+      "start_page": 15,
+      "Page_Count": 2,
+      "source_pages": [
+        15,
+        16
+      ],
+      "Page_Range": "15-16",
+      "Output_Filename": "Ana María Díaz_Closed_MR-2026-0010.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_10/Ana María Díaz_Closed_MR-2026-0010.pdf",
+      "pdf_sha256": "ecb9e671c0f9004e4ce4b7940d41daad0d2f3f8fe3325d175afb99bf60dfda51"
+    },
+    {
+      "Document_Type": "Type_11",
+      "Document_ID": "MR-2026-0011",
+      "Person_Name": "Bùi Minh Đức",
+      "Status": "Received",
+      "Date": "2026-11-11",
+      "Doc_Index": 11,
+      "start_page": 17,
+      "Page_Count": 1,
+      "source_pages": [
+        17
+      ],
+      "Page_Range": "17",
+      "Output_Filename": "Bùi Minh Đức_Received_MR-2026-0011.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_11/Bùi Minh Đức_Received_MR-2026-0011.pdf",
+      "pdf_sha256": "dab3343087bdb003ba74e98b8f450058134867ac0776db7bc558f4ecf1852d9a"
+    },
+    {
+      "Document_Type": "Type_01",
+      "Document_ID": "MR-2026-0012",
+      "Person_Name": "Nguyễn Thị Hà",
+      "Status": "Pending Review",
+      "Date": "2026-11-12",
+      "Doc_Index": 12,
+      "start_page": 18,
+      "Page_Count": 3,
+      "source_pages": [
+        18,
+        19,
+        20
+      ],
+      "Page_Range": "18-20",
+      "Output_Filename": "Nguyễn Thị Hà_Pending Review_MR-2026-0012.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_01/Nguyễn Thị Hà_Pending Review_MR-2026-0012.pdf",
+      "pdf_sha256": "ea54d5a7eee6bcf18e97449fc7d167386f733e8d2e42f52e990b01942739b8e9"
+    },
+    {
+      "Document_Type": "Type_02",
+      "Document_ID": "MR-2026-0013",
+      "Person_Name": "Alice / Bob",
+      "Status": "Approved",
+      "Date": "2026-11-13",
+      "Doc_Index": 13,
+      "start_page": 21,
+      "Page_Count": 1,
+      "source_pages": [
+        21
+      ],
+      "Page_Range": "21",
+      "Output_Filename": "Alice %2F Bob_Approved_MR-2026-0013.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_02/Alice %2F Bob_Approved_MR-2026-0013.pdf",
+      "pdf_sha256": "61467eda1c480450cc178e07166356654911d894ff1a3b4e861cdac8a3cedefa"
+    },
+    {
+      "Document_Type": "Type_03",
+      "Document_ID": "MR-2026-0014",
+      "Person_Name": "A_B % Partner",
+      "Status": "On Hold",
+      "Date": "2026-11-14",
+      "Doc_Index": 14,
+      "start_page": 22,
+      "Page_Count": 1,
+      "source_pages": [
+        22
+      ],
+      "Page_Range": "22",
+      "Output_Filename": "A%5FB %25 Partner_On Hold_MR-2026-0014.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_03/A%5FB %25 Partner_On Hold_MR-2026-0014.pdf",
+      "pdf_sha256": "aefe21a5f34ea0446f75984845190fc2a6b9d6109922af80133661c2e2627582"
+    },
+    {
+      "Document_Type": "Type_04",
+      "Document_ID": "MR-2026-0015",
+      "Person_Name": "Taylor Lee",
+      "Status": "Closed",
+      "Date": "2026-11-15",
+      "Doc_Index": 15,
+      "start_page": 23,
+      "Page_Count": 2,
+      "source_pages": [
+        23,
+        24
+      ],
+      "Page_Range": "23-24",
+      "Output_Filename": "Taylor Lee_Closed_MR-2026-0015.pdf",
+      "SharePoint_Relative_Path": "SharePoint_Synced_Outbox/Type_04/Taylor Lee_Closed_MR-2026-0015.pdf",
+      "pdf_sha256": "a177bd518355e85bebc669e54280fbcccfcf5d39d34b110e2996fb4c28021e68"
+    }
+  ],
+  "filename_policy": "nfc-utf8-percent-v1",
+  "local_outbox_only": true,
+  "ocr_performed": false
+}
